@@ -11,6 +11,7 @@ const logoSrc = `${process.env.PUBLIC_URL}/octofitapp-small.svg`;
 const navLinkClass = ({ isActive }) =>
   `nav-link ${isActive ? 'active fw-semibold' : ''}`;
 
+// Main app component with navigation and routing.
 function App() {
   return (
     <div className="App d-flex flex-column min-vh-100">
